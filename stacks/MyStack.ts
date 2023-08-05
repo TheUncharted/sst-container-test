@@ -9,7 +9,7 @@ export function API({ stack }: StackContext) {
 
   const fn = new Function(stack, 'myFunction', {
     runtime: 'container',
-    handler: 'packages/functions/src',
+    handler: 'packages/functions/src/container',
     url: true,
   });
 
